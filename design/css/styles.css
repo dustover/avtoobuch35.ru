@@ -1,0 +1,459 @@
+body {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+}
+a {
+    
+}
+a.gray {
+    color: #959494;
+}
+h1 {
+    color: #000;
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 32px;
+    margin: 0 0 50px;
+}
+h2 {
+    text-align: center;
+    margin: 60px 0 40px;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+p {
+    margin: 0 0 15px;
+    line-height: 20px;
+}
+ol {
+    counter-reset: li;
+	list-style: none;
+	*list-style: decimal;
+}
+ol li {
+    list-style: none;
+    padding: 20px 0 20px 40px;
+    position: relative;
+}
+ol li:before {
+    content: counter(li);
+    counter-increment: li;
+    position: absolute;
+    left: 0;
+    font-size: 36px;
+    color: #017cc2;
+    top: 50%;
+    margin: -20px 0 0;
+}
+.rouble {
+    font-family:'rouble';
+	font-weight: normal;
+    font-style: normal;
+    text-transform: none;
+}
+.wrapper.container {
+
+}
+table {
+    width: 100%;
+}
+table tr th {
+    background: #017cc2;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 15px;
+    text-align: left;
+}
+table tr td {
+    background: #f5f5f5;
+    border-bottom: 1px solid #fff;
+    padding: 15px;
+    vertical-align: middle;
+}
+header {
+    padding-top: 30px;
+    margin-bottom: 40px;
+}
+header a {
+    text-decoration: none;
+    font-size: 26px;
+    text-transform: uppercase;
+    margin: 0 30px 0 0;
+}
+header .login {
+    text-align: right;
+}
+header .login a {
+    padding-left: 25px;
+    background: url('img/user_icon.png.html') no-repeat left center;
+    display: inline-block;
+    margin: 0;
+}
+header nav {
+    margin-top: 30px;
+    display: table;
+    width: 100%;
+}
+header nav a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    display: table-cell;
+    text-align: center;
+}
+header nav a:first-child {
+    text-align: left;
+}
+header nav a:last-child {
+    text-align: right;
+    /*color: #959494;
+    font-weight: normal;*/
+}
+header nav a:last-child span span {
+    font-size: 28px;
+    font-weight: 100;
+    margin: 0 0 0 6px;
+    display: inline-block;
+}
+header nav a.active span {
+    border-bottom: 4px solid #017cc2;
+    display: inline-block;
+    padding-bottom: 15px;
+}
+.indexContent {
+    /*background: url('img/index_girl.jpg.html') no-repeat top center;*/
+    background: url('img/dist_study.jpg.html') no-repeat top center;
+    height: 500px;
+    margin-top: 30px;
+}
+.indexContent .white {
+    height: 500px;
+}
+.indexContent .white form {
+    width: 340px;
+    float: right;
+    margin-top: 10px;
+}
+.indexContent .white form .title {
+    font-size: 24px;
+    margin: 0 0 20px;
+    text-transform: uppercase;
+}
+.indexContent .white form input[type=text], .indexContent .white form input[type=tel] {
+    border-bottom: 1px solid #000;
+    margin-bottom: 5px;
+    font-size: 14px;
+    padding: 5px 0 5px 0;
+    width: 240px;
+}
+.indexContent .white form textarea {
+    border-bottom: 1px solid #000;
+    margin-bottom: 25px;
+    font-size: 14px;
+    padding: 5px 0 5px 0;
+    width: 240px;
+}
+.indexContent .white form input[type=submit] {
+    width: 240px;
+    margin-top: 20px;
+}
+/*.indexContent .white form input:invalid, .indexContent .white form textarea:invalid {
+    background: rgba( 255, 0, 0, 0.2 );
+    border: none;
+    border-bottom: 1px solid #000;
+}*/
+.indxImg {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.indxPrices {
+    margin-top: 140px;
+}
+.indxPriceItem {
+    margin: 0 0 40px;
+}
+.indxPriceItem .price {
+    font-size: 36px;
+    color: #017cc2;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.indxPriceItem .description {
+    text-transform: uppercase;
+    color: #010101;
+    font-size: 18px;
+}
+.indxPriceItem { 
+    color: #b4b4b4;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.indexAddresses {
+    background: url('img/index_image.jpg.html') no-repeat center top;
+    height: 620px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.indexAddresses h1 {
+    margin-bottom: 30px;
+    color: #fff;
+}
+.indexAddresses table tr td {
+    background: none;
+}
+.indexAddresses table tr td {
+    color: #fff;
+    padding: 10px;    
+}
+.indexAddresses table tr:last-child td {
+    border-bottom: none;
+}
+.indexAddresses .col-xs-3 {
+    padding-bottom: 60px;
+    color: #fff;
+}
+.indexAddresses .col-xs-3 b {
+    display: block;
+    margin-bottom: 10px;
+}
+.indexPlus {
+    padding: 120px 0 80px;
+}
+.indexPlus .col-xs-3 {
+    text-align: center;
+}
+.indexPlus img {
+    margin: 0 0 40px;
+}
+.indexPlus p {
+    text-align: center;
+    width: 210px;
+    margin: 0 auto;
+}
+footer {
+    background: #017cc2;
+    padding: 50px 0;
+    color: #fff;
+    margin-top: 0px;
+}
+footer a {
+    color: #fff;
+}
+footer .col-xs-4 {
+    text-align: right;
+}
+.contentpage {
+    padding: 50px 0;
+}
+.page { 
+    background: url('img/about_bg.jpg.html') no-repeat center top #1d2c34;
+    padding: 50px 0;
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+}
+.page div, .page p {
+    color: #fff;
+}
+.blocks .block {
+    margin: 0 0 40px;
+}
+.blocks .block .content {
+    background: #f5f5f5;
+    padding: 15px;
+}
+.blocks .block h2 {
+    background: #017cc2;
+    color: #fff;
+    text-align: left;
+    font-size: 16px;
+    padding: 15px;
+    margin: 0;
+}
+.addedInfo {
+    background: #017cc2;
+    padding: 20px;
+}
+.addedInfo p {
+    color: #fff;
+}
+.innerpage {
+    background: url('img/inner_page_bg.jpg.html') no-repeat center bottom #396a80;
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+}
+.innerpage h1 {
+    color: #fff;
+    margin-top: 40px;
+}
+.raspisanie table {
+    margin-bottom: 50px;
+}
+.raspisanie table tr td {
+    background: none;
+    color: #fff;
+    border-bottom: 1px solid #648a99;
+    font-weight: bold;
+}
+.raspisanie table tr td:first-child, .raspisanie table tr:first-child td {
+    font-weight: 300;
+}
+.raspisanie table tr:last-child td {
+    border-bottom: none;
+}
+.raspisanie table tr td:nth-child(even) {
+    background: rgba( 255, 255, 255, 0.1 );
+}
+.raspisanie table tr td.group {
+    border-bottom: 1px solid #000;
+}
+.addrs {
+    background: #f7f7f7;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.addrs a {
+    display: block;
+    margin: 0 0 20px;
+    color: #000;
+    text-decoration: none;
+}
+.addrs a.active {
+    font-weight: bold;
+}
+#map {
+    height: 300px;
+}
+.item404 {
+    border: 2px solid #da241c;
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    padding: 20px;
+}
+.itemInner404 {
+    border: 20px solid #da241c;
+    width: 260px;
+    height: 260px;
+    padding: 50px 0 0;
+    border-radius: 150px;
+    text-align: center;
+    font-size: 100px;
+}
+.contactsAddress {
+    background: #f8f8f8;
+    padding-bottom: 20px;
+}
+.contactsAddress .title {
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 20px 20px 0;
+}
+.contactsAddress .content {
+    padding: 10px 20px 0;
+}
+.contactsWeekend {
+    background: #017cc2;
+    margin-top: 10px;
+}
+.contactsWeekend .title {
+    color: #fff;
+    padding: 20px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.contactsWeekend .content {
+    padding: 0 20px 20px;
+    color: #fff;
+}
+.contactsMapContainer .title {
+    background: #017cc2;
+    color: #fff;
+    padding: 10px;
+}
+.contactsMapContainer .title a {
+    color: #fff;
+    float: right;
+    padding-right: 15px;
+    position: relative;
+}
+.contactsMapContainer .title a:after {
+    content: "\203A";
+    position: absolute;
+    right: 0;
+    font-size: 24px;
+    margin: -6px 0 0;
+}
+.contactsMapContainer #map {
+    height: 310px;
+    margin: 0 0 10px;
+}
+.contactsStuff .title {
+    background: #017cc2;
+    color: #fff;
+    padding: 10px;
+    text-transform: uppercase;
+}
+#e404title {
+    float: left;
+    width: 50%;
+    color: #017CC2;
+    font-size: 200px;
+    margin: 100px 0;
+}
+#e404content {
+    float: right;
+    width: 50%;
+    color: #017CC2;
+    font-size: 28px;
+    margin: 100px 0;
+}
+#instructors img {
+    width: 100%;
+    display:  block;
+}
+#instructors div.clear {
+    margin: 0 0 20px;
+} 
+#instructors div div {
+    background: #959494;
+    color: #000;
+    padding: 10px 20px;
+    color: #fff;
+}
+.docsItem {
+    display: block;
+    margin: 0 0 20px;
+    padding: 5px 0 5px 40px;
+    background: url('img/pdf.png.html') no-repeat left center;
+    color: #017cc2;
+}
+#callbackForm {
+    
+}
+#callbackForm input[type=text] {
+    width: 50%;
+    border-bottom: 1px solid #000;
+    margin: 0 0 20px;
+    padding: 5px 10px;
+}
+#callbackForm textarea {
+    width: 50%;
+    border-bottom: 1px solid #000;
+    margin: 0 0 20px;
+    padding: 5px 10px;
+}
+#callbackForm input[type=submit] {
+    
+}
+label.error {
+    color: #ff0000;
+    display: block;
+    text-align: center;
+}
