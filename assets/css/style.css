@@ -629,7 +629,8 @@ section {
 
 .demo{ font-family: 'Noto Sans', sans-serif; }
 .panel{
-    background: linear-gradient(to right, #5fcf80, #5fcf80);
+    background: url("../img/index_image.jpg");
+    background-size: cover;
     padding: 0;
     border-radius: 10px;
     border: none;
